@@ -1,0 +1,24 @@
+sentence-transformers==2.2.2
+huggingface-hub==0.16.4
+transformers==4.30.0
+# 移除精确版本要求，使用预编译的wheel包
+# tokenizers==0.13.3
+fastapi==0.104.1
+uvicorn==0.23.2
+pydantic==2.4.2
+python-multipart==0.0.6
+# 解决冲突：使用可用的最低版本
+onnxruntime==1.17.0
+# 修改unstructured的安装方式
+unstructured==0.10.30
+pymupdf==1.23.5
+celery==5.3.4
+redis==5.0.1
+chromadb==0.4.18
+python-dotenv==1.0.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+httpx==0.25.1
+numpy>=1.20.0
+tqdm>=4.26.0
+torch>=1.10.0 
